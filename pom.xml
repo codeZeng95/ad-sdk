@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.codeZeng95</groupId>
+  <artifactId>ad-sdk</artifactId>
+  <version>1.0.0-SNAPSHOP</version>
+  <packaging>aar</packaging>
+
+  <repositories>
+
+    <!-- 添加 Maven Central 仓库 -->
+    <!--<repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>-->
+
+    <!-- 添加 Jitpack 仓库 -->
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+
+  </repositories>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <encoding>utf8</encoding>
+          <source>1.8</source>
+          <target>1.8</target>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.16.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.liujingxing.rxhttp</groupId>
+      <artifactId>rxhttp</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>8.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.13.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.12.0</version>
+    </dependency>
+    <dependency>
+      <groupId>xyz.doikki.android.dkplayer</groupId>
+      <artifactId>dkplayer-java</artifactId>
+      <version>3.3.7</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.codeZeng95</groupId>
+      <artifactId>hs-lib</artifactId>
+      <version>1.0.0-release</version>
+    </dependency>
+
+  </dependencies>
+</project>
