@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.codeZeng95</groupId>
   <artifactId>ad-sdk</artifactId>
-  <version>1.0.1-SNAPSHOP</version>
+  <version>1.0.2-SNAPSHOP</version>
   <packaging>aar</packaging>
 
   <repositories>
