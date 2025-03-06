@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.codeZeng95</groupId>
   <artifactId>ad-sdk</artifactId>
-  <version>1.0.2-SNAPSHOP</version>
+  <version>1.0.21-SNAPSHOP</version>
   <packaging>aar</packaging>
 
   <repositories>
@@ -56,11 +56,6 @@
       <version>3.3.7</version>
     </dependency>
 
-    <dependency>
-      <groupId>com.github.codeZeng95</groupId>
-      <artifactId>hs-lib</artifactId>
-      <version>1.0.0-release</version>
-    </dependency>
 
   </dependencies>
 </project>
